@@ -1,0 +1,85 @@
+[
+  {
+    "key": "ClientID",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "ClientID",
+      "description": "The client id of the connected application used for API.",
+      "required": true
+    }
+  },
+  {
+    "key": "ClientSecret",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "type": "password",
+      "label": "ClientSecret",
+      "description": "The client secret of the connected application used for API.",
+      "required": true
+    }
+  },
+  {
+    "key": "AdminUserName",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "AdminUserName",
+      "description": "The username of the Salesforce system admin account.",
+      "required": true
+    }
+  },
+  {
+    "key": "AdminPassword",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "type": "password",
+      "label": "AdminPassword",
+      "description": "The password of the Salesforce system admin account.",
+      "required": true
+    }
+  },
+  {
+    "key": "SecurityToken",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "type": "password",
+      "label": "SecurityToken",
+      "description": "The security token of the Salesforce system admin account.",
+      "required": true
+    }
+  },
+  {
+    "key": "ApiVersion",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "ApiVersion",
+      "description": "The API version. e.g. v42.0.",
+      "required": true
+    }
+  },
+  {
+    "key": "BaseUrl",
+    "type": "input",
+    "defaultValue": "",
+    "templateOptions": {
+      "label": "BaseUrl",
+      "description": "The URL to the Salesforce application",
+      "required": true
+    }
+  },
+  {
+    "key": "IsConnectionTls12",
+    "type": "checkbox",
+    "defaultValue": true,
+    "templateOptions": {
+      "label": "Enable TLS1.2",
+      "description": "Enables TLS 1.2. Note that is not necessary when running the connector in the cloud",
+      "required": false
+    }
+  }
+]
