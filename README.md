@@ -1,7 +1,7 @@
 # HelloID-Conn-Prov-Target-SalesForce-Apex-Rest
 
 <p align="center">
-  <img src="Assets/logo.png">
+  <img src="./assets/logo.png">
 </p>
 
 ## Table of contents
